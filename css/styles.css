@@ -1,0 +1,644 @@
+
+/* general styling */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 75%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.general__h1 {
+    text-transform: uppercase;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 90px;
+    color: #333333;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.general__p {
+    width: 73%;
+    margin: 50px auto 0 auto;    
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    color: #565656;
+    text-align: justify;
+}
+
+.general__h2 {
+    color: #333333;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+    white-space: nowrap;
+}
+
+
+/* first page -- start*/
+.first_page {
+    background-image: url(../img/fp_bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 800px;
+}
+
+header {
+    min-height: 130px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    margin-left: 0;
+    min-width: 166px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    margin: 0;
+    padding: 0;
+    flex-flow: row wrap;
+}
+
+nav a {
+    white-space: nowrap;
+    color: #fff;
+    margin-left: 25px;
+}
+
+.main_section {
+    margin-top: 50px;
+}
+
+.slogan_p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #82a7c6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.slogan_h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 140px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.94px;
+    color: #5993c0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ .booking_p {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    max-width: 500px;
+
+}
+
+.button {
+    width: 150px;
+    display: block;
+    height: 40px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 12px;
+    margin-top: 20px;
+    background-color: #ff690f;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+} 
+
+/* first page -- end */
+
+/* second page -- start */
+
+.second_page {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: 56px 0 150px 0;
+    justify-content: space-between;    
+}
+
+.container div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container p {
+    color: #565656;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.14px;
+}
+
+.container h2 {
+    color: #333333;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+}
+
+.container img {
+    min-height: 186px;
+    max-width: 184px;
+}
+
+.container a {
+    margin-top: auto;
+}
+
+/* second page -- end */
+
+/* gallery -- start */
+
+#gallery {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#gallery img {
+    width: 33.3%;
+}
+
+/* gallery -- end */
+
+/* crew -- start */
+.crew {
+    display: flex;
+    margin: 56px 20px 150px 20px;
+    justify-content: space-between;
+    
+}
+
+.crew div {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.crew p {
+    color: #565656;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.14px;
+}
+
+.crew img {
+    width: 100%;
+    padding: 10px;
+    max-width: 184px;
+}
+/* crew -- end */
+
+/* about -- start */
+.about {
+    height: 100vh;
+    background-image: url(../img/bg_2.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+    
+}
+
+.about__h {
+    text-align: left;
+    margin-top: 200px;
+}
+
+.about__p {
+    width: 64%;
+    margin: 10px 0;
+
+}
+
+.about__stats {
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.stats__orange {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    color: #ff690f;
+    font-size: 38px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.stats__black {
+    color: #2b2b2b;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+
+}
+
+/* about -- end */
+
+/* testimonials -- start */
+.testimonials {
+    min-height: 550px;
+    text-align: center;
+}
+
+.testimonials img {
+    margin: 10px auto;
+    /* text-align: center; */
+}
+
+/* testimonials -- end */
+
+/* footer -- start */
+
+footer {
+    min-height: 450px;
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+}
+
+.contact {
+    width: 30%;
+}
+
+.contact h1 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-top: 75px;
+}
+
+.contact ul {
+    color: #f7f7f7;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 30px 15%;
+    list-style-type: none;
+}
+
+.contact li {
+    margin-top: 25px;
+    text-indent: -2em;
+}
+
+.phone::before {
+    color: #ff630b;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2a0";
+    margin-right: 16px;
+}
+
+.pin::before {
+    color: #ff630b;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c5";
+    margin-right: 16px;
+}
+
+.envelope::before {
+    color: #ff630b;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    margin-right: 14px;
+}
+
+.clock::before {
+    color: #ff630b;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f017";
+    margin-right: 12px;
+}
+
+.social_media {
+    margin: 40px 20%; 
+}
+
+.social_media a {
+    font-size: 25px;
+    margin-right: 20px;
+    color: #f7f7f7;
+    opacity: 0.5;
+}
+
+#map {
+    width: 70%;
+    height: 450px;
+}
+
+/* footer -- end */
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    /* general styling */
+
+
+
+    .general__p {
+        width: 80%;
+    }
+
+    .general__h2 {
+        font-size: 18px;
+    }
+
+
+    /* first page -- start*/
+    .first_page {
+        min-height: auto;
+    }
+
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    nav ul {
+        flex-flow: column wrap;
+        height: 100%;
+    }
+
+    nav a {
+        margin-right: 15px;
+    }
+
+    .wrapper {
+        width: 85%;
+    }
+
+
+
+    .slogan_h1 {
+        font-size: 100px;
+    }
+    /* first page -- end */
+
+
+    /* gallery -- start */
+
+
+    #gallery img {
+        width: 50%;
+    }
+
+    /* gallery -- end */
+
+
+    /* about -- start */
+    .about {
+    background-position: initial;    
+    }
+
+    .about__h {
+        text-align: center;
+    }
+
+    .about__p {
+        margin: 0 auto;
+
+    }
+
+    .about__stats {
+        margin: 30px auto;
+        width: 75%;
+    }
+
+
+    /* about -- end */
+
+    /* footer -- start */
+
+
+    .contact {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    #map {
+        display: none;
+        width: 70%;
+        height: 450px;
+    }
+
+    /* footer -- end */
+
+
+}
+
+@media screen and (max-width: 640px) {
+    /* general styling */
+    .wrapper {
+        width: 90%;
+    }
+
+    .general__h1 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .general__p {
+        width: 90%;
+        margin: 30px auto 0 auto;    
+        font-size: 14px;
+    }
+
+    .general__h2 {
+        font-size: 18px;
+    }
+
+
+    /* first page -- start*/
+    .first_page {
+        min-height: auto;
+    }
+
+    header {
+        min-height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+
+    nav ul {
+        margin-top: 10px;
+        flex-flow: column wrap;
+        height: 100%;
+    }
+
+
+    .main_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .slogan_p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .slogan_h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .booking_p {
+        font-size: 13px;
+    }
+
+    .button {
+        text-align: center;
+        margin: 20px auto;
+    } 
+
+    /* first page -- end */
+
+    /* second page -- start */
+
+    .container {
+        margin-bottom: 30px;
+        flex-flow: column;  
+    }
+
+    .container div {
+        margin-top: 20px;
+    }
+
+    .container p {
+        font-size: 12px;
+        display: none;
+    }
+
+    .container h2 {
+        font-size: 16px;
+    }
+
+    .container img {
+        display: none;
+    }
+
+    /* second page -- end */
+
+    /* gallery -- start */
+    #gallery img {
+        width: 50%;
+    }
+
+    /* gallery -- end */
+
+    /* crew -- start */
+    .crew {
+        flex-flow: row wrap;
+        margin-bottom: 30px;
+        
+    }
+
+    .crew div {
+        width: 50%;    
+    }
+    /* crew -- end */
+
+    /* about -- start */
+    .about__h {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .about__p {
+        margin: 10px auto;
+    }
+
+    .about__stats {
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .about__stats div {
+        margin-left: 10px;
+    }
+
+    /* about -- end */
+
+    /* footer -- start */
+    .contact {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #map {
+        display: none;
+    }
+
+    /* footer -- end */
+
+
+}
