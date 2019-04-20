@@ -72,6 +72,13 @@ header img {
     min-width: 166px;
 }
 
+.header-button {
+    display: none;
+}
+.nav-menu {
+    display: none;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -89,6 +96,10 @@ nav a {
     white-space: nowrap;
     color: #fff;
     margin-left: 25px;
+}
+
+nav a:hover {
+    color:#ff690f;
 }
 
 .main_section {
@@ -393,9 +404,6 @@ footer {
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     /* general styling */
-
-
-
     .general__p {
         width: 80%;
     }
@@ -417,12 +425,65 @@ footer {
 
 
     nav ul {
+        display: none;
         flex-flow: column wrap;
         height: 100%;
     }
 
     nav a {
         margin-right: 15px;
+    }
+
+    nav {
+        position: relative;
+        display: inline-block;
+    }
+
+    .nav-menu {
+        display: none;
+        background-color: rgba(59, 80, 135, 0.9);
+        position: absolute;
+        right: 0;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin: 0;
+    }
+
+
+    nav:hover .nav-menu {
+        display: block;
+    }
+
+
+    .nav-item {
+        color: #fff;
+        text-transform: capitalize;
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.16px;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .nav-item:hover {
+        color:#ff690f;
+    }
+
+    .header-button {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .header-button span {
+        border: 2px solid white;
+        width: 29px;
+        display: block;
+        margin: 5px 0;
     }
 
     .wrapper {
@@ -528,11 +589,60 @@ footer {
 
 
     nav ul {
-        margin-top: 10px;
-        flex-flow: column wrap;
-        height: 100%;
+        display: none;
     }
 
+    nav {
+        position: relative;
+        display: inline-block;
+    }
+
+    .nav-menu {
+        display: none;
+        background-color: rgba(59, 80, 135, 0.9);
+        position: absolute;
+        right: 0;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin: 0;
+    }
+
+
+    nav:hover .nav-menu {
+        display: block;
+    }
+
+
+    .nav-item {
+        color: #fff;
+        text-transform: capitalize;
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.16px;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .nav-item:hover {
+        color:#ff690f;
+    }
+
+    .header-button {
+        display: block;
+        background: none;
+        border: none;
+    }
+
+    .header-button span {
+        border: 2px solid white;
+        width: 29px;
+        display: block;
+        margin: 5px 0;
+    }
 
     .main_section {
         margin-top: 30px;
