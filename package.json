@@ -1,0 +1,23 @@
+{
+  "name": "snowboarding-school",
+  "version": "1.0.0",
+  "description": "responsive wev-page for a snowboarding school",
+  "main": "index.js",
+  "dependencies": {
+    "git-pages": "^0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikSkopin/Snowboarding_school.git"
+  },
+  "author": "Nikita Skopin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikSkopin/Snowboarding_school/issues"
+  },
+  "homepage": "https://github.com/NikSkopin/Snowboarding_school#readme"
+}
