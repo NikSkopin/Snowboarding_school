@@ -145,9 +145,33 @@
 
     <section class="testimonials wrapper" id="testimonials">
         <h1 class="general__h1">testimonials</h1>
-        <img src="./img/test_1.png" alt="Alisa">
-        <h2 class="general__h2">alexa smith</h2>
-        <p class="general__p">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+        <div class="carousel-container">
+            <a href="javascript:void(0)" class='slide-left' onclick="plusSlides(-1)"><i class="fas fa-chevron-circle-left"></i></a>
+            <img src="./img/test_1.png" class="test-img" alt="Alisa">
+            <img src="./img/crew_2.png" class="test-img" alt="Alisa">
+            <img src="./img/crew_3.png" class="test-img" alt="Alisa">
+            <a href="javascript:void(0)" class='slide-right' onclick="plusSlides(1)"><i class="fas fa-chevron-circle-right"></i></a>
+
+
+        </div>
+        <div style="text-align:center">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <h2 class="general__h2 test-name">alexa smith</h2>
+        <p class="general__p test-p">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+        
+
+        <h2 class="general__h2 test-name">andy brown</h2>
+        <p class="general__p test-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, commodi. Quisquam velit debitis esse, porro dignissimos totam laborum nihil illum!</p>
+        
+        <h2 class="general__h2 test-name">michael douglas</h2>
+        <p class="general__p test-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta.</p>
+
+
+
     </section>
 
     <footer id="contact">
@@ -170,7 +194,9 @@
         <div id="map">
         </div>
 
-        <!-- <script>
+        <script src="js/caroussel.js"></script>
+
+        <script>
             function initMap() {
                 var options = {
                     zoom: 17,
@@ -183,7 +209,7 @@
         </script>
         <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaGA2nWs-K_lW8o7RGIDweSQaaR5NIMgo&callback=initMap">
-        </script> -->
+        </script>
         
     </footer>
     
