@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "responsive wev-page for a snowboarding school",
   "main": "index.js",
+  "homepage": "https://nikskopin.github.io/snowboarding-school",
   "dependencies": {
     "git-pages": "^0.8.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
