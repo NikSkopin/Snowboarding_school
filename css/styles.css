@@ -146,13 +146,14 @@ nav a:hover {
     font-family: 'Catamaran', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    padding-top: 12px;
+    padding-top: 2px;
     margin-top: 20px;
     background-color: #ff690f;
     border-radius: 6px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    border: none;
 } 
 
 /* first page -- end */
@@ -191,6 +192,7 @@ nav a:hover {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 0.24px;
+    max-width: 200px;
 }
 
 .container img {
@@ -488,8 +490,8 @@ footer {
     }
 
     header {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
+        
     }
 
 
@@ -633,11 +635,11 @@ footer {
     .general__p {
         width: 90%;
         margin: 30px auto 0 auto;    
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .general__h2 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
 
@@ -648,8 +650,8 @@ footer {
 
     header {
         min-height: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px;
+
     }
 
     header img {
@@ -742,7 +744,7 @@ footer {
     /* second page -- start */
 
     .container {
-        margin-bottom: 30px;
+        margin: 20px 0;
         flex-flow: column;  
     }
 
@@ -757,6 +759,8 @@ footer {
 
     .container h2 {
         font-size: 16px;
+        max-width: 170px;
+        margin-bottom: 0;
     }
 
     .container img {
@@ -804,6 +808,11 @@ footer {
     .about__stats div {
         margin-left: 10px;
     }
+
+    .stats__orange {
+        font-size: 28px;
+    }
+
 
     /* about -- end */
 
