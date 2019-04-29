@@ -18,7 +18,7 @@
     <title>Stay & Sky</title>
 </head>
 <body>
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     <section class="first_page">
         <header>
             <img src="img/logo.png" alt="logo">
@@ -83,12 +83,17 @@
     </section>
 
     <section id="gallery">
-        <img src="img/gallery_1.jpeg" alt="gallery image">
-        <img src="img/gallery_2.jpeg" alt="gallery image">
-        <img src="img/gallery_3.jpeg" alt="gallery image">
-        <img src="img/gallery_4.jpeg" alt="gallery image">
-        <img src="img/gallery_5.jpeg" alt="gallery image">
-        <img src="img/gallery_6.jpeg" alt="gallery image">
+
+        <h1 class="general__h1">gallery</h1>
+
+        <div class="gallery-photos">
+            <img src="img/gallery_6.jpeg" alt="gallery image">
+            <img src="img/gallery_2.jpeg" alt="gallery image">
+            <img src="img/gallery_3.jpeg" alt="gallery image">
+            <img src="img/gallery_4.jpeg" alt="gallery image">
+            <img src="img/gallery_5.jpeg" alt="gallery image">
+            <img src="img/gallery_6.jpeg" alt="gallery image">
+        </div>
 
     </section>
 
@@ -196,6 +201,7 @@
         </div>
 
         <script src="js/caroussel.js"></script>
+        <script src="js/gototop.js"></script>
 
         <script>
             function initMap() {
